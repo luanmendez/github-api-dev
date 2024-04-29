@@ -6,9 +6,16 @@ export const GlobalStyle = createGlobalStyle`
   }
   body {
     background: ${(props) => props.theme.colors.gray900};
-    color: ${(props) => props.theme.colors.gray600};
+    color: ${(props) => props.theme.colors.white};
     font-family: ${(props) => props.theme.fontFamily.sans};
     
+  }
+
+  a{
+    color:white;
+  }
+  a:visited{
+    color: ${(props) => props.theme.colors.white};
   }
 
   h1, h2, h3, h4, h5, h6 {
