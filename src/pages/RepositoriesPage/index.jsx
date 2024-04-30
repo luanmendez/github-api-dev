@@ -1,6 +1,9 @@
 import React from 'react'
 
-import Profile from './profile'
+import Profile from './Profile'
+import Filter from './Filter'
+import Repositories from './Respositories'
+
 import { Container, Sidebar, Main } from './styles'
 
 export default function RepositoriesPages() {
@@ -8,9 +11,10 @@ export default function RepositoriesPages() {
     <Container>
       <Sidebar>
         <Profile />
+        <Filter />
       </Sidebar>
       <Main>
-        Main
+        <Repositories />
       </Main>
     </Container>
     

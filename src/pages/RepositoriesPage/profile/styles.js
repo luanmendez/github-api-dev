@@ -56,7 +56,6 @@ export const Data = styled.p`
   align-items: center;
   line-height: 1.5;
 
-
   svg{
     margin-right: 10px;
   }
